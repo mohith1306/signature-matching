@@ -1,0 +1,111 @@
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 10%;
+    height: 25rem;
+    width:25rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-color: grey;
+    border-style: dashed;
+}
+
+.text{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+.analyze{
+    border-radius:12px;
+    color:white;
+    height:5rem;
+    width:15rem;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(228, 20, 193);
+}
+img{
+    height:4rem;
+    width:4rem;
+}
+
+.file_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Custom file picker */
+.file-picker input[type="file"] {
+  display: none; /* hides the default white choose file input */
+}
+
+.file-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.file-picker__button {
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.file-picker__button:hover {
+  transform: scale(1.05);
+}
+
+.file-picker__name {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.file-picker__input:focus + .file-picker__button,
+.file-picker__button:focus{
+    outline: 3px solid rgba(99,102,241,0.18);
+    outline-offset: 2px;
+}
+.file-picker__info{
+    font-size: 0.85rem;
+    color: #e8e8e8;
+}
+
+.file-picker__name{
+    font-size: 0.85rem;
+    color: #eef2ff;
+    max-width: 9rem;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 0.5rem;
+}
+.box{
+        border-radius: 10%;
+        height: auto;
+        min-height: 18rem;
+        width:22rem;
+        
+        max-width: calc(100vw - 4rem);
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-color: grey;
+        border-style: dashed;
+        padding: 1.2rem;
+}

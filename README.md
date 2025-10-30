@@ -12,32 +12,31 @@ Model: CNN-based signature verification (.h5 file)
 
 Signature_verification/
 │
-├── ML_Model/                         # Machine Learning model files
-│   ├── app_m.py                      # Model inference helper
-│   ├── signature_cnn.h5              # Base CNN model
-│   └── signature_v1_cnn.h5           # Trained signature model
+├── ML_Model/ # Machine Learning model files
+│ ├── app_m.py # Model inference helper
+│ ├── signature_cnn.h5 # Base CNN model
+│ └── signature_v1_cnn.h5 # Trained signature model
 │
 └── web_dev/
-    ├── backend/                      # Flask backend
-    │   ├── models/
-    │   │   └── model_loader.py       # Loads ML model
-    │   └── app.py                    # Flask API for signature analysis
-    │
-    └── frontend/                     # React + Vite frontend
-        ├── public/
-        ├── src/
-        │   ├── assets/               # (Optional) images/icons
-        │   ├── pages/                # Future routing pages (if any)
-        │   ├── App.jsx / App.css     # Root React component
-        │   ├── Center.jsx / Center.css   # Signature upload UI
-        │   ├── Result.jsx / Result.css   # Result display page
-        │   ├── Header.jsx / Header.css   # Navbar/Header component
-        │   ├── index.css / main.jsx      # App entry point
-        ├── index.html
-        ├── vite.config.js
-        ├── package.json
-        └── README.md                  # Project documentation
-🚀 Setup Instructions
+├── backend/ # Flask backend
+│ ├── models/
+│ │ └── model_loader.py # Loads ML model
+│ └── app.py # Flask API for signature analysis
+│
+└── frontend/ # React + Vite frontend
+├── public/
+├── src/
+│ ├── assets/ # (Optional) images/icons
+│ ├── pages/ # Future routing pages (if any)
+│ ├── App.jsx / App.css # Root React component
+│ ├── Center.jsx / Center.css # Signature upload UI
+│ ├── Result.jsx / Result.css # Result display page
+│ ├── Header.jsx / Header.css # Navbar/Header component
+│ ├── index.css / main.jsx # App entry point
+├── index.html
+├── vite.config.js
+├── package.json
+└── README.md # Project documentation🚀 Setup Instructions
 1️⃣ Clone the Repository
 git clone https://github.com/mohith1306/signature-matching.git
 cd signature_verification
